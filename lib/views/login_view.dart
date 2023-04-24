@@ -33,6 +33,7 @@ class _LoginViewState extends State<LoginView> {
               children: [
                 Expanded(
                   child: Column(
+                    key: const Key('test'),
                     children: [
                       Align(
                         alignment: Alignment.centerLeft,
